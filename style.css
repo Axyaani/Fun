@@ -1,0 +1,79 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/* Container for Time Remaining */
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+/* Styling for the image of the president */
+.image-section {
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Title styling */
+h1 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #4CAF50;
+}
+
+h1 i {
+  margin-right: 10px;
+}
+
+/* Time Remaining Section */
+#time-remaining {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.time-item {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 22px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #e8f5e9;
+  transition: all 0.3s;
+}
+
+.time-item i {
+  font-size: 30px;
+  color: #4CAF50;
+  margin-right: 15px;
+}
+
+.time-item span {
+  color: #333;
+}
+
+/* Hover effect for time items */
+.time-item:hover {
+  background-color: #dcedc8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
