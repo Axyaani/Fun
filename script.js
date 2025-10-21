@@ -1,6 +1,6 @@
 // Taariikhda bilowga iyo dhamaadka
 const startDate = new Date("05/15/2022");
-const endDate = new Date("06/15/2026");
+const endDate = new Date("05/15/2026");
 
 // Function-ka lagu xisaabinayo waqtiga haray
 function updateTimeRemaining() {
